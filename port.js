@@ -21,4 +21,7 @@ let date = new Date();
 let fullyear = date.getFullYear()
 let year = document.getElementById("year");
 year.innerHTML = fullyear
-console.log(fullyear)
+// console.log(fullyear)
+
+let myName = document.getElementById("myName").value;
+console.log(myName)
